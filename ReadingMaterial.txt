@@ -1,0 +1,29 @@
+Javascript Object - 
+{name: "Sudip", location: "Kolkata", experience: 20}
+
+Layered Architecture -
+
+i) Presentation Layer/View Layer - UI,UX, Frontend
+	{"name": "Sudip","location": "Kolkata"..., "Experience": 20}
+ii) Controller Layer - Webservices, REST API's - can be created using Javascript(Express)
+iii) Business Layer - It is the layer in which business logic is applied.
+iv) DAO(Data Access Object) Layer - It communicates with the database.
+
+var, let, const
+
+== : It checks for the equality of two VALUES.
+=== : It checks for the equality of both VALUES and DATA TYPES
+
+let a = 20;
+let b = 20;
+let c = "20";
+let d = "Sudip";
+
+a == b -> true
+b == c -> true
+b == d -> false
+
+a === b -> true
+a === c -> false
+
+ 
